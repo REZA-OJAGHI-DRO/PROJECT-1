@@ -1,0 +1,39 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a,a:visited{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row{
+    display: flex;
+}
+.wi-100{
+    width: 100%;
+}
+.he-100{
+    height: 100%;
+}
+.po-rel{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+.tr{
+    transition: .4s;
+}
+.te-al{
+    text-align: center;
+}
